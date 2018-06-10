@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{41b302a5-029d-4ec4-bb47-74cf0546753c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\memory">
+      <UniqueIdentifier>{07964e11-449b-403a-b2d1-2bc632a7dfa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\render resource">
+      <UniqueIdentifier>{d97e03e2-c640-41c3-810d-2768cb66720b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\render resource\material">
+      <UniqueIdentifier>{8b1fce26-7617-409b-92f1-475e610a0534}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Referenced.h">
+      <Filter>头文件\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_ptr.h">
+      <Filter>头文件\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeDrawable.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManipulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>头文件\render resource\material</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSetting.h">
+      <Filter>头文件\render resource\material</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>头文件\render resource\material</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUProgram.h">
+      <Filter>头文件\render resource\material</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraphNode.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MixinVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VecArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>头文件\render resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PallasCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>头文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>头文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>头文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraphNode.cpp">
+      <Filter>头文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>头文件\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
